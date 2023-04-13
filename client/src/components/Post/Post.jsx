@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./post.css";
 
 const Post = ({post}) => {
-  const img = "https://mernblogproject.onrender.com/uploads/";
+  const img = "https://blogapp-0yn6.onrender.com/uploads/";
   // console.log(img);
   return (
     <div className="post">

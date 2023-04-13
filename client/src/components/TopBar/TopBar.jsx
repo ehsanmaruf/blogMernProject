@@ -5,7 +5,7 @@ import "./topBar.css";
 
 const TopBar = () => {
   const { user, dispatch } = useContext(Context);
-  const img = "https://mernblogproject.onrender.com/uploads/";
+  const img = "https://blogapp-0yn6.onrender.com/uploads/";
 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });

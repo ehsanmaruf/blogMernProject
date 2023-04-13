@@ -14,7 +14,7 @@ const SinglePost = () => {
   const [desc, setDesc] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
 
-  const img = "https://mernblogproject.onrender.com/uploads/";
+  const img = "https://blogapp-0yn6.onrender.com/uploads/";
 
   useEffect(() => {
     const getPost = async () => {
